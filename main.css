@@ -1,0 +1,330 @@
+body{
+    margin:0;
+    min-width: 960px;
+    font-family:"Bookman Old Style","Noto Serif TC",serif;
+}
+a{
+    text-decoration: none;
+    color:rgb(0,0,0);
+    cursor: pointer;
+}
+.first_screen{
+max-width: 100%;
+height: 100vh;
+background-image: url(png/singapore-1990959.jpg);
+background-position: top center;
+}
+.site-navigation{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+.site-navigation li {display: inline-block;}
+.site-navigation a{
+  text-decoration: none;
+  display: block;
+  line-height: 60px;
+  padding: 0 25px;
+  font-size: 22px;
+  font-family: 'Century Gothic', sans-serif;
+  color: #3299e2;
+  transition: .3s linear;
+}
+.site-navigation a:hover {background: rgba(255, 255, 255, 0.3);
+}
+.site-navigation a.current{
+    color:white;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.video{
+    display:block;
+    margin-top:47px;
+    margin-left:auto;
+    margin-right: auto;
+    outline:none;
+    border-top: 2px solid #3299e2;
+    border-left: 2px solid #3299e2;
+    padding-top:27px;
+    padding-left:98px;
+    padding-right:60px;
+    width: 54%;
+    height:55%;
+   
+}
+.short-text{
+    letter-spacing: -1px;
+    margin-left:auto;
+    margin-right: auto;
+    font-size:24px;
+    margin-top:74px;
+    line-height: 33px;
+    width:54%;
+    border-bottom: 2px solid #3299e2;
+    border-right: 2px solid #3299e2;
+    padding-bottom: 27px;
+    padding-right: 60px;
+    padding-left:117px;
+    text-align:justify;
+}
+.article-headline{
+    font-size:46px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.decor-line{
+    display:block;
+    width: 0px;
+    margin-top:0px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top:0px;
+    padding-right:38px;
+    border-bottom: 2px solid #3299e2;
+}
+.articles-list{
+    list-style:none;
+    margin-top:62px;
+    margin-left:137px;
+    text-align: center;
+    padding-left:0px;
+}
+.articles-list li {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.articles-list a{
+    text-decoration: none;
+    display: block;
+    font-size:23px;
+    margin-right:136px;
+    border-bottom: 1px solid #3299e2;
+    padding-bottom:18px;
+}
+.articles-list img{
+    margin-bottom:28px;
+}
+
+.article-preview{
+width:395px;
+text-align: justify;
+font-size:16px;
+}
+.newsletter{
+    margin-top:82px;
+}
+.newsletter-headline{
+    font-size:40px;
+    text-align: center;
+}
+
+.E-mail{
+    display:block;
+    width:686px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:24px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size:30px;
+    border:none;
+    border-top:2px solid #000000;
+    border-bottom:2px solid #000000;
+    outline:none;
+    
+}
+input[type="text"]::-webkit-input-placeholder {
+    color: #575555; /* Цвет подсказывающего текста */
+}
+
+.submit {
+    width:160px;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    display:block;
+    position: relative;
+    padding: 15px 30px;
+    border: 1px solid;
+    border-image: linear-gradient(180deg, #367CFF, #33a7ff, #338bff, #0069d1);
+    border-image-slice: 1;
+    margin-top:50px;
+    margin-bottom:10px;
+    margin-right: auto;
+    margin-left:auto;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: .9s cubic-bezier(.165,.84,.44,1);
+  }
+.submit:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    z-index: -1;
+    color: white;
+    background: linear-gradient(180deg, #367CFF, #33a7ff, #338bff, #0069d1);
+    transition: .8s cubic-bezier(.165,.84,.44,1);
+  }
+.submit:hover {background: rgba(255,255,255,0);}
+.submit:hover:before {
+    bottom: 0; 
+    top: auto;
+    height: 100%;
+  }
+.social{
+    margin-top:100px;
+      text-align: center;
+      font-size: 30px;
+  }
+.social-list{
+    padding-left:0px;
+    list-style: none;
+   text-align: center; 
+  }
+.social-list li {
+    display: inline-block;
+}
+.social-item{
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    margin-right:130px;
+}
+.social-item img{
+    width: 50px;
+    height: 50px;
+}
+.last{
+    margin-right:0px;
+}
+.footer-line{
+    width: 0px;
+    margin-top:0px;
+    margin-left:15%;
+    padding-top:78px;
+    padding-right:70%;
+    border-bottom: 2px solid #3299e2;
+}
+.footer .site-navigation a:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+.footer .site-navigation {
+    margin-top:78px;
+}
+.footer .site-navigation a.current{
+    color:#000000;
+}
+
+.article-header .site-navigation a.current{
+    color:#000000;
+}
+.article-navigation_list a:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+.article-main{
+    margin:0;
+    min-height: 960px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.prices{
+    background-image: url(png/fon.png);
+}
+.visa{
+    background-image: url(png/Fon-2.png);
+}
+.flight{
+    background-image: url(png/Fon-3.png);
+}
+.article-title{
+    margin:0;
+    padding-top:31px;
+    padding-bottom:20px;
+    padding-left:30px;
+    font-size:30px;
+    font-weight: 400;
+}
+.article-text{
+    display: block;
+    background: rgba(255, 255, 255, 0.85);
+    width: 65%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom:0px;
+    margin-top:0px;
+    height: 100%;
+    
+}
+.text{
+    font-size: 20px;
+    padding-left:30px;
+    padding-right:30px;
+    line-height: 36px;
+    text-align:justify;
+}
+.other-articles{
+    background: rgba(255, 255, 255, 0.85);
+    padding-bottom:10px;
+}
+.articles-footer{
+    background: rgba(0, 0, 0, 0.5)
+}
+.other-articles .articles-list{
+    margin-bottom:0px;
+}
+p.copyright{
+    float:none;
+    margin:0px;
+    padding-left:89%;
+    font-size:14px;
+    padding-top:6px;
+}
+.articles-footer p.social{
+    margin-top:0px;
+    padding-top:15px;
+}
+.articles-footer .main-navigation{
+    margin-top:50px;
+}
+.headline{
+    width: 100%;
+    border-top: 2px solid #3299e2;
+    border-bottom: 2px solid #3299e2;
+}
+.back{
+text-align:right;
+width: 92px;
+text-decoration: none;
+position: absolute;
+display: inline-block;
+margin-left:1109px;
+background: url(png/icon-back.png) no-repeat left;
+font-size:20px;
+margin-top:10px;
+}
+.articles-decor-line{
+    border-bottom: 2px solid #3299e2;
+}
+.about-us{
+    background:url(png/fon.png);
+}
+.text p{
+    margin:0px;
+}
+.text img{
+    display:block;
+    width: 83%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.razrab{
+    font-size: 40px;
+    text-align: center;
+}
